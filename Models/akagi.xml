@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+
+  <path>akagi.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>coque</object-name>
+    <object-name>principal</object-name>
+    <object-name>secondaire</object-name>
+    <object-name>pont</object-name>
+    <object-name>portetourelleA</object-name>
+    <object-name>portetourelleB</object-name>
+    <object-name>chemine</object-name>
+    <object-name>soustour</object-name>
+    <object-name>tour</object-name>
+    <object-name>support</object-name>
+    <object-name>lames</object-name>
+    <object-name>Elevator-1</object-name>
+    <object-name>Elevator-2</object-name>
+    <object-name>Elevator-3</object-name>
+    <object-name>wire-stop</object-name>
+    <object-name>Wake</object-name>
+    <object-name>plaque1</object-name>
+    <object-name>plaque2</object-name>
+    <object-name>plaque3</object-name>
+    <object-name>plaque4</object-name>
+    <object-name>plaque5</object-name>
+    <object-name>plaque6</object-name>
+    <object-name>plaque7</object-name>
+    <object-name>plaque8</object-name>
+    <object-name>plaque9</object-name>
+    <object-name>plaque10</object-name>
+    <object-name>plaque11</object-name>
+    <object-name>plaque12</object-name>
+    <object-name>plaque13</object-name>
+    <object-name>plaque14</object-name>
+
+    <object-name>intchemine</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>wire</object-name>
+    <object-name>wire-1</object-name>
+    <object-name>wire-2</object-name>
+    <object-name>wire-3</object-name>
+    <object-name>wire-4</object-name>
+    <object-name>wire-5</object-name>
+    <object-name>wire-6</object-name>
+    <object-name>wire-7</object-name>
+    <object-name>wire-8</object-name>
+    <object-name>vitres</object-name>
+    <object-name>vitres2</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitres</object-name>
+  </animation>
+
+  <model>
+    <path>Aircraft/Akagi/Models/Interior/interior.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Flols/flols.xml</path>
+    <offsets>
+      <x-m>  90.12 </x-m>
+      <y-m> -17.16 </y-m>
+      <z-m>  23.50 </z-m>
+      <pitch-deg> -3 </pitch-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -41.148 </x-m>
+      <y-m> -19.115 </y-m>
+      <z-m>  20.651 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -41.110 </x-m>
+      <y-m> -19.544 </y-m>
+      <z-m>  20.651 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -34.266 </x-m>
+      <y-m> -19.440 </y-m>
+      <z-m>  20.651 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -41.148 </x-m>
+      <y-m>  15.497 </y-m>
+      <z-m>  20.651 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -41.110 </x-m>
+      <y-m>  15.926 </y-m>
+      <z-m>  20.651 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m> -34.266 </x-m>
+      <y-m>  15.822 </y-m>
+      <z-m>  20.651 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  57.964 </x-m>
+      <y-m> -19.265 </y-m>
+      <z-m>  19.482 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  66.799 </x-m>
+      <y-m> -19.239 </y-m>
+      <z-m>  19.482 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  76.583 </x-m>
+      <y-m> -19.158 </y-m>
+      <z-m>  19.882 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  84.755 </x-m>
+      <y-m> -19.199 </y-m>
+      <z-m>  19.882 </z-m>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  57.964 </x-m>
+      <y-m>  15.825 </y-m>
+      <z-m>  19.482 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  66.799 </x-m>
+      <y-m>  15.798 </y-m>
+      <z-m>  19.482 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  76.583 </x-m>
+      <y-m>  15.718 </y-m>
+      <z-m>  19.882 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Akagi/Models/Turret/guns01.xml</path>
+    <offsets>
+      <x-m>  84.755 </x-m>
+      <y-m>  15.759 </y-m>
+      <z-m>  19.882 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+    
+<!--
+  animation>
+    <type>select</type>
+    <object-name>glide-path</object-name>
+    <condition>
+      <equals>
+        <property>controls/glide-path</property>
+        <value type="bool">true</value>
+      </equals>
+    </condition>
+  </animation-->
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Wake</object-name>
+    <property>orientation/roll-deg</property>
+    <factor>1</factor>
+    <center>
+      <x-m>218.97</x-m>
+      <y-m>0.00</y-m>
+      <z-m>0.093</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+<!--
+    <axis>
+      <x1-m> 218.970 </x1-m>
+      <y1-m>   0.000 </y1-m>
+      <z1-m>   0.093 </z1-m>
+      <x2-m> 495.800 </x2-m>
+      <y2-m>   0.000 </y2-m>
+      <z2-m>   0.093 </z2-m>
+    </axis>
+-->
+  </animation>
+    
+  <animation>
+    <type>rotate</type>
+    <object-name>Wake</object-name>
+    <property>surface-positions/rudder-pos-deg</property>
+    <factor> -0.334 </factor>
+    <center>
+      <x-m> -79.500 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>   0.093 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
+    </axis>
+  </animation>
+    
+<!--
+  <animation>
+    <type>translate</type>
+    <object-name>Elevator-2</object-name>
+    <property>surface-positions/elevators-pos-norm</property>
+    <factor> 10.62 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+    
+  <animation>
+    <type>translate</type>
+    <object-name>Elevator-1</object-name>
+    <object-name>tractor-15</object-name>
+    <object-name>Crew-41</object-name>
+    <property>surface-positions/elevators-pos-norm</property>
+    <factor> 10.62 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>Crew</object-name>
+    <object-name>Crew-41</object-name>
+    <condition>
+      <property>controls/crew</property>
+    </condition>
+  </animation>
+-->
+
+<!--		
+  <animation>
+    <type>select</type>
+    <object-name>Pilot-Mast</object-name>
+    <condition>
+      <or>
+        <not>
+          <property>controls/in-to-wind</property>
+        </not>
+        <not>
+          <property>controls/turn-to-launch-hdg</property>
+        </not>
+      </or>
+    </condition>
+  </animation>
+-->
+
+<!--
+  <animation>
+    <type>rotate</type>
+    <object-name>JBD-1</object-name>
+    <property>surface-positions/jbd-pos-norm</property>
+    <factor>70</factor>
+    <axis>
+      <x1-m>  9.53270 </x1-m>
+      <y1-m> 22.62000 </y1-m>
+      <z1-m> 20.00000 </z1-m>
+      <x2-m>  9.54471 </x2-m>
+      <y2-m> 13.11000 </y2-m>
+      <z2-m> 20.00000 </z2-m>        
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>JBD-2</object-name>
+    <property>surface-positions/jbd-pos-norm</property>
+    <factor>70</factor>
+    <axis>
+      <x1-m> 17.58610 </x1-m>
+      <y1-m>  0.73414 </y1-m>
+      <z1-m> 20.00000 </z1-m>
+      <x2-m> 17.58611 </x2-m>
+      <y2-m> -8.77131 </y2-m>
+      <z2-m> 20.00000 </z2-m>
+    </axis>
+  </animation>
+-->
+    
+<!-- non-op until I can figure out a way of stopping JBD3 &  4 interfering -->
+<!--
+  <animation>
+    <type>rotate</type>
+    <object-name>JBD-3</object-name>
+    <property>surface-positions/jbd-pos-norm</property>
+    <factor>70</factor>
+    <axis>
+      <x1-m> 107.7090 </x1-m>
+      <y1-m> -15.4622 </y1-m>
+      <z1-m>  20.0000 </z1-m>
+      <x2-m> 107.7100 </x2-m>
+      <y2-m> -25.0340 </y2-m>
+      <z2-m>  20.0000 </z2-m>
+    </axis>
+  </animation>
+-->
+
+<!--
+  <animation>
+    <type>rotate</type>
+    <object-name>JBD-4</object-name>
+    <property>surface-positions/jbd-pos-norm</property>
+    <factor>70</factor>
+    <axis>
+      <x1-m> 125.4710 </x1-m>
+      <y1-m> -26.5776 </y1-m>
+      <z1-m>  20.0000 </z1-m>
+      <x2-m> 125.4590 </x2-m>
+      <y2-m> -35.2367 </y2-m>
+      <z2-m>  20.0000 </z2-m>
+    </axis>
+  </animation>
+-->
+
+</PropertyList>
+

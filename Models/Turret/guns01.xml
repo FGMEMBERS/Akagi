@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList> 
+
+  <path>guns01.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>turret</object-name>
+    <object-name>echelle</object-name>
+    <object-name>capots</object-name>
+    <object-name>guns</object-name>
+    <object-name>air</object-name>
+  </animation>
+
+</PropertyList>
+

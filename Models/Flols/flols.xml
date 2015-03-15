@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Fresnel Lens Optical Landing System -->
+<PropertyList> 
+
+  <path>flols.ac</path>
+
+  <animation> 
+    <type>material</type>
+    <object-name>redLightSourcesL</object-name>
+    <object-name>redLightSourcesR</object-name>
+    <emission>
+      <red>   1 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation> 
+    <type>material</type>
+    <object-name>greenLightSourcesL</object-name>
+    <object-name>greenLightSourcesR</object-name>
+    <emission>
+      <red>   0 </red>
+      <green> 1 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>
+

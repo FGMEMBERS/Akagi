@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList include="akagi-base.xml">
+
+  <sim>
+
+    <description>Akagi (Yasim) </description>
+    <author>Emmmanuel BARANGER (3D), Tat Nishioka</author>
+    <status>development</status>
+    <flight-model>yasim</flight-model>
+    <aero>akagi-yasim</aero>
+
+  </sim>
+
+</PropertyList>
+

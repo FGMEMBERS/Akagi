@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="akagi-jsbsim-cnf.xml"> -->
+<PropertyList include="akagi-yasim-cnf.xml">
+
+  <sim>
+    <description>Akagi</description>
+    <author>Emmmanuel BARANGER (3D), Tat Nishioka</author>
+  </sim>
+
+</PropertyList>
+

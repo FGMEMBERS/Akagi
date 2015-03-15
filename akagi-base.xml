@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- 
+    Japanese Aircraft Carrier "Akagi"
+
+    Author: Emmanuel BARANGER 2009
+            Tat Nishioka
+    Date of creation: Jan. 20, 2007
+    Status: pre-alpha
+    License: GNU GPL
+
+    Note:
+    This aircraft carrier is pre-alpha
+  -->
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <description>Akagi</description>
+    <author>Emmmanuel BARANGER (3D), Tat Nishioka</author>
+
+    <model>
+      <path>Aircraft/Akagi/Models/akagi.xml</path>
+      <crew>
+        <pilot>
+          <visible type="int">1</visible>
+        </pilot>
+      </crew>
+    </model> 
+
+    <sound>
+      <path>Aircraft/Generic/generic-sound.xml</path>
+    </sound>
+
+    <startup>
+      <splash-texture>Aircraft/Akagi/akagi-splash.png</splash-texture>
+    </startup>
+
+    <walker>
+      <outside type="bool">false</outside>
+      <walking type="bool">false</walking>
+    </walker>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int">0</int>  <!-- 0 immat -->
+        <int type="int">0</int>  <!-- 1 immat -->
+        <int type="int">0</int>  <!-- 2 immat -->
+        <int type="int">0</int>  <!-- 3 immat -->
+        <int type="int">0</int>  <!-- 4 immat -->
+        <int type="int">0</int>  <!-- 5 immat -->
+        <int type="bool">0</int> <!-- 6 smoke -->
+        <int type="int">0</int>  <!-- 7 color -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Akagi</title>
+      <line>______________________________________________</line>
+    </help>
+
+    <menubar include="Dialogs/akagi-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/akagi-keyboard.xml"/>
+  </input>
+
+  <nasal>
+    <walk>
+      <file>Aircraft/Oscar-Sette/Nasal/walk.nas</file>
+      <script>main_loop();</script>
+    </walk>
+  </nasal>
+
+</PropertyList>
+
