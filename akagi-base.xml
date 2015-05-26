@@ -73,7 +73,7 @@
 
   <nasal>
     <walk>
-      <file>Aircraft/Oscar-Sette/Nasal/walk.nas</file>
+      <file>Aircraft/Akagi/Nasal/walk.nas</file>
       <script>main_loop();</script>
     </walk>
   </nasal>
